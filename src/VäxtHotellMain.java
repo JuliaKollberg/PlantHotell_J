@@ -64,7 +64,7 @@ public class VäxtHotellMain {
                 }
             }
             //Amount of liquid needed
-            amount = plants.get(matchSpot).calculateWaterAmount(meatloaf.getPlantType(), meatloaf.getHeight());
+            amount = plants.get(matchSpot).calculateWaterAmount(plants.get(matchSpot).plantType, plants.get(matchSpot).getHeight());
 
 
             //If the names match the result message will pop up, and asks user if they wish to try again or close.
